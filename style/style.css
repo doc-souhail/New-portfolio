@@ -195,3 +195,10 @@ a:hover::before {
 ::placeholder{
     color: var(--10) !important;
 }
+
+
+/*//////////////////////*/
+
+.erro_page{
+    background-color: var(--5);
+}
