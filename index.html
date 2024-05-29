@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Souhail NAJI</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
 <header>
     <div class="text-center ">
-<!--        <img class="" src="./assets/images/reardo.gif" alt="">-->
-        <h1 class="jolly-lodger-regular">SOUHAIL</h1>
-<!--        <img class="rounded-circle col w_10" src="./assets/images/bat.gif" alt="">-->
+        <h1 class="jolly-lodger-regular title_name">SOUHAIL</h1>
     </div>
     <nav class="navbar navbar-expand-lg border border-3 border-end-0 border-start-0 border-dark p-0 m-0">
         <div class="container-fluid p-4 p-lg-0 m-0 ">
@@ -67,15 +67,16 @@
                     <button class="custom-button-2">See more</button>
                 </div>
             </div>
-            <div class="col-12 col-xl-6 bg-yallow text-center ">
-                <img class="w-75 pt-4" src="./assets/images/design-null.png" alt="">
+            <div
+                    class="col-12 col-xl-6 bg-yallow text-center d-flex justify-content-center align-content-center align-items-center">
+                <img class="w-50 pt-4" src="./assets/images/design-null.png" alt="">
             </div>
         </div>
     </div>
     <section class="border border-3 border-end-0 border-start-0 border-top-0 border-dark">
         <div class="container my-5 ">
-            <h2 class="display-2 text-center roboto-regular">My skills</h2>
-            <p class="roboto-regular fs-4 text-center mx-5">
+            <h2 class="display-2 text-center roboto-regular" data-aos="fade-up">My skills</h2>
+            <p data-aos="fade-up" class="roboto-regular fs-4 text-center mx-5">
                 I am proficient in a wide range of technologies and tools,
                 including
                 Angular,
@@ -84,18 +85,18 @@
                 and Blender, and have strong experience in web deployment and version control with Git and Gitlab.
             </p>
             <div class="row">
-                <img src="./assets/images/python.svg" class="py-3 px-4 col-2" alt="python">
-                <img src="./assets/images/angular.svg" class="py-4 px-3 col-2" alt="angular">
-                <img src="./assets/images/mysql.svg" class="py-3 px-4 col-2" alt="mysql">
-                <img src="./assets/images/php.svg" class="py-3 px-4 col-2" alt="php">
-                <img src="./assets/images/symfony.svg" class="py-3 px-4 col-2" alt="symfony">
-                <img src="./assets/images/springboot.svg" class="py-3 px-4 col-2" alt="springboot">
-                <img src="./assets/images/bootstrap.svg" class="py-3 px-4 col-2" alt="">
-                <img src="./assets/images/html5.svg" class="py-3 px-4 col-2 " alt="">
-                <img src="./assets/images/tailwindcss.svg" class="py-3 px-4 col-2 " alt="">
-                <img src="./assets/images/javascript.svg" class="py-3 px-4 col-2 " alt="">
-                <img src="./assets/images/jquery.svg" class="py-3 px-4 col-2 " alt="">
-                <img src="./assets/images/linux.svg" class="py-3 px-4 col-2 " alt="">
+                <img data-aos="fade-up" src="./assets/images/python.svg" class="py-3 px-4 col-2" alt="python">
+                <img data-aos="fade-up" src="./assets/images/angular.svg" class="py-4 px-3 col-2" alt="angular">
+                <img data-aos="fade-up" src="./assets/images/mysql.svg" class="py-3 px-4 col-2" alt="mysql">
+                <img data-aos="fade-up" src="./assets/images/php.svg" class="py-3 px-4 col-2" alt="php">
+                <img data-aos="fade-up" src="./assets/images/symfony.svg" class="py-3 px-4 col-2" alt="symfony">
+                <img data-aos="fade-up" src="./assets/images/springboot.svg" class="py-3 px-4 col-2" alt="springboot">
+                <img data-aos="fade-up" src="./assets/images/bootstrap.svg" class="py-3 px-4 col-2" alt="">
+                <img data-aos="fade-up" src="./assets/images/html5.svg" class="py-3 px-4 col-2 " alt="">
+                <img data-aos="fade-up" src="./assets/images/tailwindcss.svg" class="py-3 px-4 col-2 " alt="">
+                <img data-aos="fade-up" src="./assets/images/javascript.svg" class="py-3 px-4 col-2 " alt="">
+                <img data-aos="fade-up" src="./assets/images/jquery.svg" class="py-3 px-4 col-2 " alt="">
+                <img data-aos="fade-up" src="./assets/images/linux.svg" class="py-3 px-4 col-2 " alt="">
 <!--                <img src="./assets/images/gitlab.svg" class="px-3 col-2 " alt="">-->
 <!--                <img src="./assets/images/wordpress.svg" class="skills-svg " alt="">-->
 <!--                <img src="./assets/images/vuedotjs.svg" class="skills-svg " alt="">-->
@@ -104,21 +105,27 @@
     </section>
     <section class="border border-3 border-end-0 border-start-0 border-top-0 border-dark">
         <div class="container my-5">
-            <h2 class="display-2 text-center roboto-regular">My Services</h2>
+            <h2 class="display-2 text-center roboto-regular" data-aos="fade-up">My Services</h2>
             <div class="row justify-content-center">
-                <div class="col-xl-5 my-3 px-4 py-3 col bg-yallow border border-2 border-dark rounded-2 mx-3 custom-button-3">
+                <div data-aos="fade-up"
+                     data-aos-anchor-placement="bottom-bottom"
+                        class="col-xl-5 my-3 px-4 py-3 col bg-yallow border border-2 border-dark rounded-2 mx-3 custom-button-3">
                     <img class="svg-10 my-2" src="./assets/images/computer.png" alt="computer">
                     <h3 class="roboto-regular">Web development</h3>
                     <p class="roboto-regular">As a Full-Stack Developer, I specialize in creating robust and efficient web applications. With expertise in Angular, Java, Spring Boot</p>
                 </div>
-                <div class="col-xl-5 my-3 px-4 py-3 col bg-blue border border-2 border-dark rounded-2 mx-3 custom-button-3">
+                <div data-aos="fade-up"
+                     data-aos-anchor-placement="bottom-bottom"
+                        class="col-xl-5 my-3 px-4 py-3 col bg-blue border border-2 border-dark rounded-2 mx-3 custom-button-3">
                     <img class="svg-10 my-2" src="./assets/images/brush.png" alt="brush">
                     <h3 class="roboto-regular">Web design</h3>
                     <p class="roboto-regular">
                         I offer professional web design services that combine aesthetic appeal with user-friendly interfaces. Utilizing tools like Photoshop, Figma, and Blender
                     </p>
                 </div>
-                <div class="col-xl-5 my-3 px-4 py-3 col bg-blue-light border border-2 border-dark rounded-2 mx-3 custom-button-3">
+                <div data-aos="fade-up"
+                     data-aos-anchor-placement="bottom-bottom"
+                        class="col-xl-5 my-3 px-4 py-3 col bg-blue-light border border-2 border-dark rounded-2 mx-3 custom-button-3">
                     <img class="svg-10 my-2" src="./assets/images/diamond.png" alt="diamond">
                     <h3 class="roboto-regular">T-shirt Design</h3>
                     <p class="roboto-regular">
@@ -130,28 +137,36 @@
     </section>
     <section class="border border-3 border-end-0 border-start-0 border-top-0 border-dark">
         <div class="container my-5">
-            <h2 class="display-2 text-center roboto-regular">My Projects</h2>
+            <h2 class="display-2 text-center roboto-regular" data-aos="fade-up">My Projects</h2>
 
         <div class="row p-0 m-0 justify-content-center">
-            <div class="col-xl-5 my-3 px-4 py-3 col bg-yallow border border-2 border-dark rounded-2 mx-3 custom-button-3">
+            <div data-aos="fade-up"
+                 data-aos-anchor-placement="bottom-bottom"
+                    class="col-xl-5 my-3 px-4 py-3 col bg-yallow border border-2 border-dark rounded-2 mx-3 custom-button-3">
                 <img class="svg-10 my-2" src="./assets/images/symfony.svg" alt="symfony">
                 <h3 class="roboto-regular">Blogger with symfony</h3>
                 <p class="roboto-regular">Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.</p>
                 <a class="text-white roboto-regular fs-5 link-underline-light" href="#">View project</a>
             </div>
-            <div class="col-xl-5 my-3 px-4 py-3 col bg-clove border border-2 border-dark rounded-2 mx-3 custom-button-3">
+            <div data-aos="fade-up"
+                 data-aos-anchor-placement="bottom-bottom"
+                    class="col-xl-5 my-3 px-4 py-3 col bg-clove border border-2 border-dark rounded-2 mx-3 custom-button-3">
                 <img class="svg-10 my-2" src="./assets/images/python.svg" alt="symfony">
                 <h3 class="roboto-regular">Blogger with python</h3>
                 <p class="roboto-regular">Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.</p>
                 <a class="text-white roboto-regular fs-5 link-underline-light" href="#">View project</a>
             </div>
-            <div class="col-xl-5 my-3 px-4 py-3 col bg-blue-light border border-2 border-dark rounded-2 mx-3 custom-button-3">
+            <div data-aos="fade-up"
+                 data-aos-anchor-placement="bottom-bottom"
+                    class="col-xl-5 my-3 px-4 py-3 col bg-blue-light border border-2 border-dark rounded-2 mx-3 custom-button-3">
                 <img class="svg-10 my-2" src="./assets/images/springboot.svg" alt="symfony">
                 <h3 class="roboto-regular">Blogger with springboot</h3>
                 <p class="roboto-regular">Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.</p>
                 <a class="text-white roboto-regular fs-5 link-underline-light" href="#">View project</a>
             </div>
-            <div class="col-xl-5 my-3 px-4 py-3 col bg-blue border border-2 border-dark rounded-2 mx-3 custom-button-3">
+            <div data-aos="fade-up"
+                 data-aos-anchor-placement="bottom-bottom"
+                    class="col-xl-5 my-3 px-4 py-3 col bg-blue border border-2 border-dark rounded-2 mx-3 custom-button-3">
                 <img class="svg-10 my-2" src="./assets/images/php.svg" alt="symfony">
                 <h3 class="roboto-regular">Blogger with php</h3>
                 <p class="roboto-regular">Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.</p>
@@ -162,7 +177,7 @@
     </section>
     <section class="border border-3 border-end-0 border-start-0 border-top-0 border-dark bg-clove">
         <div class="py-5 d-flex justify-content-center align-items-center flex-column ">
-            <h2 class="roboto-bold display-2 text-center pt-5">Feel free to contact me,</br>
+            <h2 data-aos="fade-up" class="roboto-bold display-2 text-center pt-5">Feel free to contact me,</br>
                 Or let’s collaborate
             </h2>
             <div class="box my-4">
@@ -171,33 +186,33 @@
         </div>
     </section>
     <section class="border border-3 border-end-0 border-start-0 border-top-0 border-dark bg-blue-light">
-        <div class="py-5 d-flex justify-content-center align-items-center flex-column ">
-            <h2 class="roboto-regular display-2 text-center pt-5">Contact</h2>
+        <div class="py-5 d-flex justify-content-center align-items-center flex-column px-5">
+            <h2 class="roboto-regular display-2 text-center pt-5" data-aos="fade-up">Contact</h2>
             <form action="">
-                <h2 class="text-center roboto-regular display-4 py-4">Interested in working together? Let's talk</h2>
+                <h2 class="text-center roboto-regular display-4 py-4" data-aos="fade-up">Interested in working together? Let's talk</h2>
                 <div class="row">
-                    <div class="mb-4 col">
+                    <div data-aos="fade-up" class="mb-4 col">
                         <input type="text"
                                class="form-control border border-2 border-dark rounded-0 shadow-none py-3 roboto-regular fs-5"
                                placeholder="Your full name">
                     </div>
-                    <div class="mb-4 col">
+                    <div data-aos="fade-up" class="mb-4 col">
                         <input type="email"
                                class="form-control  border border-2 border-dark rounded-0 shadow-none py-3 roboto-regular fs-5"
-                               placeholder="Your full email">
+                               placeholder="Your email">
                     </div>
                 </div>
-                <div class="mb-4">
+                <div data-aos="fade-up" class="mb-4">
                     <input type="text"
                            class="form-control  border border-2 border-dark shadow-none rounded-0 py-3 roboto-regular fs-5"
                            placeholder="Subject">
                 </div>
-                <div class="mb-4">
+                <div data-aos="fade-up" class="mb-4">
                     <textarea
                             class="form-control border border-2 border-dark rounded-0 shadow-none py-3 roboto-regular fs-5"
                               placeholder="Your message"></textarea>
                 </div>
-                <button type="submit" class="custom-button-3 w-100 roboto-regular fs-5">Send</button>
+                <button data-aos="fade-up" type="submit" class="custom-button-3 w-100 roboto-regular fs-5">Send</button>
             </form>
         </div>
     </section>
@@ -218,18 +233,13 @@
             </a> ®</h3>
         </div>
     </footer>
-<!--    <div class="social_side">-->
-<!--        <div>-->
-<!--            <ul class="m-0 p-0">-->
-<!--                <li class="my-5"><a href="#"><img class="svg-10" src="./assets/images/github.svg" alt="github"></a></li>-->
-<!--                <li class="my-5"><a href="#"><img class="svg-10" src="./assets/images/linkedin.svg" alt="linkedin"></a></li>-->
-<!--                <li class="my-5"><a href="#"><img class="svg-10" src="./assets/images/instagram.svg" alt="instagram"></a></li>-->
-<!--                <li class="my-5"><a href="#"><img class="svg-10" src="./assets/images/gmail.svg" alt="gmail"></a></li>-->
-<!--            </ul>-->
-<!--        </div>-->
-<!--    </div>-->
 </main>
-<script src="./javaScript/main.js"></script>
-<script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
 </body>
 </html>
